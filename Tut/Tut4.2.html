@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tut4.2</title>
+  </head>
+  <body>
+    <script>
+            function greet(){
+                console.log('hello there');
+            }
+
+            const speak= function(){
+                console.log('good day!')
+            }
+
+            greet();
+            speak();
+
+            function calculateDogAge(age){
+                let dogAge= age*7;
+                return "Your doggie is " + dogAge+" years old in dog age"
+
+            }
+
+          console.log(calculateDogAge(4))
+          console.log(calculateDogAge(6))
+          console.log(calculateDogAge(7))
+
+          //arrow function
+          const calcArea = radius => 3.24* radius**2;
+          // equivalent
+          // const calcArea = radius => {
+          //     return 3.24* radius**2;}
+          // const calcArea = () => {
+          //     return 3.24* radius**2;}
+          console.log(calcArea(8));
+
+          const bil = (product, tax) =>{
+              let total =0;
+              for(let i=0; i<product.length; i++){
+                  total+= product[i]+product[i]*tax;
+                }
+                return total;
+          }
+
+          console.log(bil([5,5], 0.1))
+
+    </script>
+  </body>
+</html>

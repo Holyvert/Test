@@ -1,0 +1,75 @@
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+  <head> <title> powers.html </title>
+
+</head>
+
+  <body>
+
+    <table border = "border">
+
+      <caption> Powers table </caption>
+
+      <tr>
+
+<th> Number </th>
+
+<th> Square Root </th>
+
+<th> Square </th>
+
+<th> Cube </th>
+
+<th> Quad </th>
+
+      </tr>
+
+      <script>
+
+for (var number = 1; number <=10; number++) {
+
+  var root = Math.
+sqrt
+(number);
+
+  var square = Math.
+pow
+(number, 
+2
+);
+
+  var cube = Math.pow(number, 
+3
+);
+
+  var quad = Math.pow(number, 
+4
+);
+
+  
+document.write
+("<tr align = \"center\"> <td> " + 
+number
+ +"</td>");
+
+ document.write("<td>" + 
+root
+ + "</td> <td>" + 
+square
+ + "</td>");
+
+ document.write("<td>" + 
+cube
+ + "</td> <td>" + 
+quad
+ + "</td> </tr>");
+
+}
+
+      </script>
+
+    </table>
+
+  </body>
+
+</html>

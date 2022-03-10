@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    p#alert {
+      color: aqua;
+    }
+
+    p#content {
+      color: blue;
+    }
+
+    p.big-red{
+        background-color: red;
+    }
+
+    .big-blue{
+        background-color: blue;
+    }
+
+    div.big-red{
+        background-color: red;
+    }
+   
+
+    @media only screen and (max-width:812px){
+        body{
+        background-color: rgba(218, 107, 107, 0.644);
+        }
+    }
+
+    @media only screen and (max-width:1024px) and (min-width:768px){
+        body{
+        background-color: rgb(255, 255, 0);
+        }
+    }
+  </style>
+  <body style="color: white;">
+    <p id="alert">Notice : Important announcement</p>
+    <p id="content">Offline classes</p>
+    <!-- on java you can change the conctent of the id -->
+
+    <div class="big-red"><p>Div 1</p></div>
+    <div class="big-blue"><p>Div 2</p></div>
+    <div><p class="big-red">Div 3</p></div>
+
+
+    <table style="border: border-collapse">
+      
+      </table>
+  </body>
+</html>

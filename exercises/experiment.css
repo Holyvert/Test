@@ -1,0 +1,61 @@
+.Row1 {
+    position: absolute;
+    top: 265px; /*340px;*/
+    width: 1190px;
+    z-index: 3;
+    left: 95px;
+    height: 740px;
+    display: flex;
+  }
+  
+  .Row2 {
+    position: absolute;
+    top: 595px; /*740px;*/
+    width: 1190px;
+    z-index: 3;
+    left: 95px;
+    height: 740px;
+    display: flex;
+  }
+  
+  .Row3 {
+    position: absolute;
+    top: 930px;
+    width: 1190px;
+    z-index: 3;
+    left: 95px;
+    height: 740px;
+    display: flex;
+  }
+
+  @media screen {
+    .Row1 {
+        position: absolute;
+        top: 53px; /*340px;*/
+        width: 238px;
+        z-index: 3;
+        left: 19px;
+        height: 148px;
+        display: flex;
+      }
+    
+      .Row2 {
+        position: absolute;
+        top: 119px; /*740px;*/
+        width: 238px;
+        z-index: 3;
+        left: 19px;
+        height: 148px;
+        display: flex;
+      }
+      .Row3 {
+        position: absolute;
+        top: 186px;
+        width: 238px;
+        z-index: 3;
+        left: 19px;
+        height: 148px;
+        display: flex;
+      }
+      
+  }
